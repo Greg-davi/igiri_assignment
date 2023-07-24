@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Page</title>
+    <link rel="stylesheet" href="./CSS/dashboard.css">
+    <meta http-equiv="refresh" content="3">
+</head>
+<body>
+    
+    <main>
+        <nav class="navbar">
+            <ul class="buttons">
+                <li>
+                    <img src="./images/user-solid.svg">
+                    <p>New patient</p>
+                </li>
+                <li>
+                    <img src="./images/magnifying-glass-solid.svg">
+                    <p>Find patient</p>
+                </li>
+                <li>
+                    <img src="./images/flask-solid.svg">
+                    <p>Patient connection</p>
+                </li>
+                <li>
+                    <img src="./images/shield-solid.svg">
+                    <p>Medication</p>
+                </li>
+            </ul>
+           
+        </nav>
+
+        <div class="all">
+            <div class="patient">
+                <div class="left">
+                    <h3>Patient</h3>
+                    <p>Patient's MRN: 9393028383832</p>
+                    <p>Monitoring start date: 15-2-2013</p>
+                    <p>Current state: active</p>
+    
+    
+                </div>
+                <div class="right">
+                    <p>Helio DR. Osama</p>
+                    <p>100 monitored patient | 3 emergency event | 0 notification</p>
+                </div>
+                
+            </div>
+            <button class="monitor">Vital signs monitoring</button>
+        </div>
+
+        <div class="information">
+            <div class="patient-info">
+                <h3>Patient Information</h3>
+                <p>Patient ID: Zinchenko</p>
+                <p>Gender: Male</p>
+                <p>Age: 34</p>
+                <p>Address: Phase 1 Avenue, NY</p>
+
+            </div>
+            <div class="waveform">
+                <h3>ECG Waveform</h3>
+                
+                <textarea name="waveform" id="" cols="30" rows="10"></textarea>
+
+                <ul>
+                    <li><button>Plot</button></li>
+                    <li><button>UDP</button></li>
+                    <li><button>ON</button></li>
+                    <li><button>OFF</button></li>
+                </ul>
+            </div>
+
+            <ul class="vital">
+                <li>
+                    <p>Pulse</p>
+                    <button>60</button>
+                </li>
+                <li>
+                    <p>DIA</p>
+                    <button>107</button>
+                </li>
+                <li>
+                    <p>SYS</p>
+                    <button>61</button>
+                </li>
+                <li>
+                    <p>Temperature</p>
+                    <button>37.0</button>
+                </li>
+                <li>
+                    <p>SPO2</p>
+                    <button>95</button>
+                </li>
+                <li>
+                    <p>Rate</p>
+                    <button>14</button>
+                </li>
+            </ul>
+
+        </div>
+    </main>
+
+</body>
+</html>
